@@ -511,7 +511,7 @@
 	pixel_x = 0;
 	pixel_y = 5
 	},
-/turf/open/floor/plating,
+/turf/open/floor/iron/cafeteria,
 /area/ruin/space/has_grav/powered/ghostkitchen)
 "hZ" = (
 /obj/structure/window/reinforced/tinted/frosted/spawner/directional/east,
@@ -568,6 +568,10 @@
 "iO" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/food/flour,
+/obj/machinery/reagentgrinder{
+	pixel_x = -1;
+	pixel_y = 13
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered/ghostkitchen)
 "ja" = (
@@ -1956,12 +1960,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
 /turf/open/floor/iron/dark/small,
 /area/ruin/space/has_grav/powered/ghostkitchen)
-"CL" = (
-/obj/structure/table/reinforced,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/newspaper,
-/turf/open/floor/iron/cafeteria,
-/area/ruin/space/has_grav/powered/ghostkitchen)
 "CT" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/item/trash/shok_roks{
@@ -2136,6 +2134,12 @@
 /obj/machinery/light/dim/directional/south,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/space/has_grav/powered/ghostkitchen)
+"Fj" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/newspaper,
+/turf/open/floor/iron/cafeteria,
+/area/ruin/space/has_grav/powered/ghostkitchen)
 "Fw" = (
 /mob/living/basic/cow{
 	name = "Betsy";
@@ -2262,10 +2266,10 @@
 /area/ruin/space/has_grav/powered/ghostkitchen)
 "Hq" = (
 /obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/desk_bell{
 	pixel_y = 7
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/cafeteria,
 /area/ruin/space/has_grav/powered/ghostkitchen)
 "Hy" = (
@@ -2777,10 +2781,6 @@
 	color = "#474747"
 	},
 /obj/structure/sign/poster/contraband/tea_over_tizira/directional/west,
-/obj/item/paper_bin{
-	pixel_x = 0;
-	pixel_y = 5
-	},
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/powered/ghostkitchen)
 "NF" = (
@@ -3010,6 +3010,10 @@
 /area/ruin/space/has_grav/powered/ghostkitchen)
 "Qx" = (
 /obj/structure/table/reinforced,
+/obj/machinery/microwave{
+	pixel_x = 0;
+	pixel_y = 10
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered/ghostkitchen)
 "Qz" = (
@@ -3267,6 +3271,17 @@
 "UC" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/floor/grass,
+/area/ruin/space/has_grav/powered/ghostkitchen)
+"UJ" = (
+/obj/structure/table/reinforced,
+/obj/machinery/processor{
+	pixel_y = 11;
+	pixel_x = 1
+	},
+/obj/item/reagent_containers/cup/rag{
+	pixel_x = -4
+	},
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/powered/ghostkitchen)
 "UL" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4249,7 +4264,7 @@ Ji
 iG
 MZ
 qp
-CL
+Fj
 Se
 si
 NF
@@ -4280,7 +4295,7 @@ tP
 VG
 qp
 qp
-Qx
+UJ
 Xo
 Tk
 nH
@@ -4354,13 +4369,13 @@ tP
 TO
 qp
 qp
-hY
+Qx
 qp
 IP
 nH
 XL
 Xo
-bb
+hY
 QS
 si
 Sb
